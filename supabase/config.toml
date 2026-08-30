@@ -1,0 +1,10 @@
+project_id = "zaxmmulfcsqnhmjimvps"
+
+[auth]
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+# 개발 중에는 가입 즉시 로그인되게 확인 메일을 끕니다.
+# 실제 서비스로 열 때는 true 로 되돌리세요.
+enable_confirmations = false
